@@ -10,7 +10,20 @@ secao-metas{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 15px;
 }
 img{
     width: 200px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.meta:hover{
+    transition: .9s;
+    transform: scale(3);
+}
+h2{
+    width:400px;
+}
+p{
+    width: 400px;
 }
