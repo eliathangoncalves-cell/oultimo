@@ -1,29 +1,37 @@
-secao-metas{
+.secao-metas {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 600px;
+    width: 100%;
 }
 
-.meta{
+.meta {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 15px;
+    
+    
+    border: 2px solid #333; 
+    border-radius: 8px;     
+    margin-bottom: 15px;    
 }
-img{
+
+img {
     width: 200px;
     padding-left: 15px;
     padding-right: 15px;
 }
-.meta:hover{
-    transition: .9s;
-    transform: scale(3);
+
+.meta:hover {
+    transition: 0.9s;
+    transform: scale(1.1);
 }
-h2{
-    width:400px;
+h2 {
+    width: 400px;
 }
-p{
+
+p {
     width: 400px;
 }
